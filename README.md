@@ -32,9 +32,12 @@ The [dataset](https://huggingface.co/docs/datasets/quickstart) used in this proj
 To run this project, you will need Jupyter Notebook or Jupyter Lab installed on your machine. You can also use Google Colab if you prefer working in a cloud environment. Follow these steps:
 
 1. Clone the repository or download the `movie_sentiment_analysis.ipynb` file.
-2. Install the required dependencies using `pip install -r requirements.txt`.
-3. Open the `movie_sentiment_analysis.ipynb` notebook in Jupyter Notebook/Lab or Google Colab.
-4. Run the cells in the notebook to perform the sentiment analysis.
+2. Initialise a python virtual environment `python3 -m venv myvenv`.
+3. Activate your virtual environment `source myvenv/bin/activate`.
+4. Install the required dependencies using `pip install -r requirements.txt`.
+5. Open the `movie_sentiment_analysis.ipynb` notebook in Jupyter Notebook/Lab or Google Colab.
+6. Run the cells in the notebook to perform the sentiment analysis.
+7. To deactivate the python venv `deactivate`
 
 ## Methodology
 
